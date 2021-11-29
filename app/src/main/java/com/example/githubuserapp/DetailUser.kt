@@ -8,6 +8,13 @@ import android.widget.TextView
 import com.bumptech.glide.Glide
 
 class DetailUser : AppCompatActivity() {
+
+
+    companion object {
+        const val EXTRA_DATA = "extra_data"
+    }
+
+
     private lateinit var imgAvatar: ImageView
     private lateinit var txtName: TextView
     private lateinit var txtUsername: TextView
@@ -17,9 +24,7 @@ class DetailUser : AppCompatActivity() {
     private lateinit var txtFollowing: TextView
     private lateinit var txtLocation: TextView
 
-    companion object {
-        const val EXTRA_DATA = "extra_data"
-    }
+
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -6,4 +6,6 @@
     <string name="repository">Repository:</string>
     <string name="companyDetail">Company:</string>
     <string name="location">Location:</string>
+    <string name="followers">Followers:</string>
+    <string name="followings">Followings :</string>
 </resources>
